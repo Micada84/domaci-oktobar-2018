@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Domaci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--  heder-->
+    <div class="parent">
+        <div class="hed1"><img src="img/comtrade-logo.png" alt="logo Comtrade"></div>
+        <div class="hed2">
+            <h1><Span style="color: lightblue">C</Span>omtrade <span style="color: lightblue;">F</span>rontend <span
+                    style="color:lightblue">D</span>evelopment</h1>
+            <h3 class="crvena"><i><strong>Obuka za frontend developera </strong></i></h3>
+            <table class="tabela1">
+                <tr class="tb1">
+                    <th class="sir_cel">Početna</th>
+                    <th class="sir_cel">HTML</th>
+                    <th class="sir_cel">CSS</th>
+                    <th class="sir_cel">JavaScript</th>
+                    <th class="sir_cel">Kontakt</th>
+                </tr>
+            </table>
+        </div>
+        <div class="hed1"><img src="img/search.png" alt="slika lupe" class="prevara">
+            <form action="#">
+
+                <label for="pronadji"></label>
+                <input type="search" value="Pronadji..." placeholder="Pronadji." id="pronadji" class="dugmici1"><br><br>
+
+                <select name="jezik" id="jezik" class="dugmici">
+                    <option value="Izaberi jezik">Izaberite jezik </option>
+                    <option value="Srpski">Srpski</option>
+                    <option value="Engleski">Engleski</option>
+                </select>
+
+            </form>
+        </div>
+    </div>
+    <!--kraj hedera-->
+    <!--glavni deo -->
+    <div class="parent1">
+        <!--levi deo-->
+        <div class="hed3">
+            <h4 class="nas">Koraci do developera </h4>
+            <img src="img/steps.png" alt="par zelenih stopala">
+            <ul class="lista">
+                <li>Uvod u Html
+                    <ol>
+                        <li>Definicija<br>HTML-a</li>
+                        <li>Osnovni tagovi</li>
+                        <li>HTML atributi</li>
+                        <li>Forme</li>
+                    </ol>
+                </li>
+                <li>Uvod u CSS</li>
+                <li>Bootstrap</li>
+                <li>Uvod u JavaScript</li>
+                <li>JQuery</li>
+                <li>Uvod u TypeScript</li>
+                <li>TypeScript</li>
+                <li>React.js</li>
+            </ul>
+        </div>
+        <!--srednji deo-->
+        <div class="hed4">
+            <h1 class="centar"><b> Uvod u HTML</b></h1>
+            <p class="vf bold"><b>HTML definicija</b><hr></p>
+            <p class="vf">HTML služi da definišemo <B>strukturu</B> dokumenta.</p>
+            <p class="vf"><b>HTML tagovi</b>
+                <hr>
+            </p>
+            <p class="vf">Većina HTML tagova mora imati otvoren i zatvoren tag. <br>Otvoren tag se piše: &lt;h1&gt; <br>
+                Zatvore
+                ni tag se piše: &lt;/h1&gt;</p>
+            <div class="unutra">
+                <h2 class="blq">Blockquote</h2>
+                <p class="vf"><i>Ovo je tag blockqute koji se koristi da se nešto izdvoji iz texta kao sad npr. <br>
+                    </i><b>Tagovi se koji imaju otvoren i zatvoreni tag se nazivaju dvostrukim tagovima. <br>
+                        tagovi sa jedni tagom se nazivaju jednostruki tagovi.</b></p>
+            </div>
+            <h1 class="centar">HTML tabele</h1>
+
+            <table class="tabela2">
+                <tr class="tb">
+                    <th class="teh">Tehnologija</th>
+                    <th class="nivo">Nivo</th>
+                    <th class="link">Link</th>
+                </tr>
+                <tr>
+                    <td class="td">HTML 5</td>
+                    <td class="td">Master</td>
+                    <td class="td"><a href="#" target="blank">Link treba da se otvori u novom tabu</a></td>
+                </tr>
+                <tr>
+                    <td class="td">CSS 3</td>
+                    <td class="td">Master</td>
+                    <td class="td"><a href="#" target="blank">Link treba da se otvori u novom tabu</a></td>
+                </tr>
+                <tr>
+                    <td class="td red bold" colspan="3"><b>Možete nam pisati na sledeću email adresu</b> <span style="color: yellow; text-decoration: underline; font-weight:bold;">branko.stankovic@code.edu.rs</span></td>
+
+                </tr>
+            </table>
+            <!--div forme-->
+            <div>
+                <h2 class="centar">HTML</h2>
+                <div class="form">
+                    <form action="#">
+                        <fieldset>
+                            <legend>Ostavi komentar</legend><br>
+                            <label for="Email"></label>
+                            <input type="email" id="Email" placeholder="Email"><br><br>
+                            <label for="komentar">Komentar</label><br>
+                            <textarea name="komentar" id="komentar" cols="20" rows="5"></textarea><br><br>
+                            Pošallji na neke slike<br>
+                            <input type="file" name="Browse" id="files" ><br><br>
+
+                            <input type="submit" value="Ostavi Komentar" class="dugme">
+
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="forma1">
+                    <form action="#">
+                        <fieldset>
+                            <legend>Popuni anketu</legend><br><br>
+                            Da li vam se svidja ovaj sajt
+                            <input type="radio" name="da" id="dar" value="da">Da
+                            <input type="radio" name="ne" id="ner" value="ne">Ne<br><br>
+                            Šta ste naučii? <br>
+                            <select name="jezik" id="program" multiple>
+                                <option value="HTML">HTML</option>
+                                <option value="CSS">CSS></option>
+                                <option value="Bootstrap">Bootstrap</option>
+                                <option value="JavaScript">JavaScript</option>
+                                <option value="React.js">React.js</option>
+
+                            </select><br><br>
+                            Potvrdi uslove korišćenja
+                            <input type="checkbox" name="chec" id="uslovi"><br><br>
+                            <input type="submit" value="Pošalji" class="dugme"><br><br>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--desni deo-->
+        <div class="hed5">
+            <h3>CSS Sprite</h3>
+            <img class="sredina slika" src="img/html5.png" alt="logo html 5"><br>
+            <h4>HTML</h4>
+            <img class="sredina slika" src="img/css3.png" alt="logo css 3"><br>
+            <h4>CSS</h4>
+            <img class="sredina slika" src="img/bootstrap.png" alt="logo Bootstrapa"><br>
+            <h4>Bootstrap</h4>
+            <img class="sredina slika" src="img/js.png" alt="logo JavaScript"><br>
+            <h4>JavaScript</h4>
+            <img class="sredina slika" src="img/react.png" alt="logo react"><br>
+            <h4>React.js</h4>
+
+        </div>
+    </div>
+
+    <!--   kraj glavnog dela -->
+    <div class="div8">
+            <div class="div9 prvi ">
+                <h4 class="cent">HTML</h4>
+                <ul>
+                    <li>Tagovi</li>
+                    <li>Atributi</li>
+                    <li>Emmet</li>
+                    <li>HTML5</li>
+                </ul>
+    
+            </div>
+            <div class="div9 gran">
+                <h4 class="cent">CSS</h4>
+                <ul>
+                    <li>Selektori</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap</li>
+                    <li>SASS</li>
+                    <li>Less</li>
+                </ul>        
+            </div>
+            <div class="div9 gran">
+                <h4 class="cent">JavaScript</h4>
+                <ul>
+                    <li>Uvod u JavaScript</li>
+                    <li>jQuery</li>
+                    <li>TypeScript</li>
+                    <li>React.js</li>
+                    <li>Unit testovi</li>
+                </ul>
+            </div>
+        </div>
+        <div class="kraj">&#9400;Copyright by CodeEdu</div>
+</body>
+
+</html>

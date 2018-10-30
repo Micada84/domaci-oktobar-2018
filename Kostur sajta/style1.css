@@ -1,0 +1,52 @@
+
+.parent{
+    display: flex;
+    border: solid 2px black;
+    margin: 0 2px;
+}
+
+
+.hed1{
+    background-color: red;
+    width: 20%;
+    height: 150px;
+}
+.hed2{
+    background-color: green;
+    width: 60%;
+    height: 150px;
+    
+}
+.parent1{
+    display: flex;
+    margin-top: 10px;
+   
+   
+   
+   
+}
+.hed3{
+    background-color: blue;
+    width: 15%;
+    margin-right: 10px;
+    height: 350px;
+    margin-left: 8px;
+     
+}
+.hed4{
+    background-color: aqua;
+    width: 70%;
+    height: 700px;
+}
+.hed5{
+    background-color: blue;
+    width: 15%;
+    margin-left: 10px;
+    height: 350px;
+    margin-right: 8px;
+}
+.parent2{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}

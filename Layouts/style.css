@@ -1,0 +1,381 @@
+#container1 .first,  #container1 .second, #container1 .third{
+    float: left; width: 33.33%; height: 70px;
+}
+#container1 .fourth{
+    float: left;
+    width: 100%;
+    height: 40px;
+} 
+#container1 .fifth{
+    float: left;
+    width: 100%;
+    height: 40px;
+} 
+#container1 .sixth
+{   float: left;
+     width: 100%; 
+    height: 40px;
+}
+#container2 .first, #container2 .second, #container2 .third,#container2 .fourth, #container2 .fifth, #container2 .sixth{
+    float:left;
+    width: 33.33%;
+    height: 120px;
+}
+#container3 .first,  #container3 .second, #container3 .third{
+    float: left; width: 33.33%; height: 80px;
+}
+#container3 .fourth, #container3 .fifth{
+    float: left; width: 50%; height: 80px;
+}
+#container3 .sixth{
+    float: left;
+    width: 100%;
+    height: 80px;
+}
+#container6 .first, #container6 .second, #container6 .third,#container6 .fourth, #container6 .fifth, #container6 .sixth{
+    float: left;
+    width: 16.66%;
+    height: 150px;
+}
+#container4 .first{
+    float: left;
+    width: 16.66%;
+    height: 80px
+}
+#container4 .second{
+    float: left;
+    width: 16.66%;
+    height: 100px
+
+}
+#container4 .third, #container4 .fourth, #container4 .fifth{
+        float: left;
+        width: 16.66%;
+        height: 80px;
+    } 
+ #container4 .sixth{
+        float: left;
+        width: 16.66%;
+        height: 90px;
+    }
+#fot{
+    float: left;
+    width: 100%;
+}
+#container5  .first, #container5  .second, #container5  .third,#container5  .fourth, #container5  .fifth, #container5  .sixth{
+    float: left;
+    width: 16.66%;
+    height: 150px;
+}
+
+}
+#container7 .first, #container7 .second, #container7 .third, #container7 .fourth{
+    float: left;
+    width: 50%;
+    height: 60px;
+    
+}
+#container7 .fifth, #container7 .sixth{
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+#container8 .first, #container8 .second, #container8 .third,#container8 .fourth{
+    float: left;
+    width: 25%;
+    height: 70px;
+}
+#container8 .fifth, #container8 .sixth{
+    float: left;
+    width: 50%;
+    height: 70px;
+}
+#container9 .first, #container9 .second, #container9 .third{
+    width: 33.33%;
+    float: left;
+    height: 70px;
+}
+#container9 .fourth{
+    width: 50%;
+    float: left;
+    height: 70px
+}
+#container9 .fifth, #container9 .sixth{
+    float: left;
+    width: 25%;
+    height: 70px;
+}
+#container10 .first, #container10 .second, #container10 .third{
+    width: 33.33%;
+    float: left;
+    height: 70px;
+}
+#container10 .fourth{
+    width: 30%;
+    float: left;
+    height: 70px
+}
+#container10 .fifth {
+    float: left;
+    width: 50%;
+    height: 70px;
+}
+#container10 .sixth{
+    float: left;
+    width: 20%;
+    height: 70px; 
+}
+#container11 .first{
+    float: left;
+    width: 20%;
+    height: 70px;
+}
+#container11 .second{
+    float: left;
+    width: 60%;
+    height: 70px;
+}
+#container11 .third{
+    float: left;
+    width: 20%;
+    height: 70px;
+}
+#container11 .fourth{
+    float: left;
+    width: 35%;
+    height: 70px;
+}
+#container11 .fifth{
+    float: left;
+    width: 30%;
+    height: 70px;
+}
+#container11 .sixth{
+    float: left;
+    width: 35%;
+    height: 70px;
+}
+#container12 .first{
+    float: left;
+    width: 30%;
+    height: 60px;
+}
+#container12 .second{
+    float: left;
+    width: 70%;
+    height: 60px;
+}
+#container12 .third{
+    float: left;
+    width: 70%;
+    height: 60px;
+}
+#container12 .fourth{
+    float: left;
+    width: 30%;
+    height: 60px;
+}
+#container12 .fifth{
+    float: left;
+    width: 30%;
+    height: 60px;
+}
+#container12 .sixth{
+    float: left;
+    width: 70%;
+    height: 60px;
+}
+#container13 .first, #container13 .second{
+    float: left;
+    width: 80%;
+    height: 70px;
+}
+#container13 .third, #container13 .fourth{
+    float: right;
+    width: 80%;
+    height: 70px;
+}
+#container13 .fifth, #container13 .sixth{
+    float: left;
+    width: 50%;
+    height: 70px;
+}
+#container14 .first{
+    display: inline-block;
+    width: 35%;
+    height: 30px;
+}
+#container14 .second{
+    display: inline-block;
+    width: 45%;
+    height: 30px;
+}
+#container14 .third{
+    display: inline-block;
+    width: 34%;
+    height: 30px;
+}
+#container14 .fourth{
+    display: inline-block;
+    width: 45%;
+    height: 30px;
+}
+#container14 .fifth{
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+}
+#container14 .sixth{
+    display: inline-block;
+    width: 50%;
+    height: 30px;
+}
+#container15 .first, #container15 .second{
+    display: block;
+    width: 40%;
+    height: 60px;
+} 
+#container15 .third{
+    float: left;
+    width: 40%;
+    height: 45px;
+}
+#container15 .fourth{
+    display: inline-block;
+    width: 40%;
+    height: 45px;
+}
+#container15 .fifth{
+    float: left;
+    width: 60%;
+    height: 45px;
+}
+#container15 .sixth{
+    float: left;
+    width: 100%;
+    height: 45px;
+}
+#h{
+    float: left;
+    width: 50%;
+}
+#f{
+    width: 50%;
+    float: left;
+}
+#container16 .first, #container16 .second, #container16 .third, #container16 .fourth,#container16 .fifth{
+    float: left;
+    width: 20%;
+    height: 100px;
+}
+#container16 .sixth{
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+#container17 .first{
+    display: block;
+    width: 33.33%;
+    height: 50px;
+}
+#container17 .second{
+    float: left;
+    width: 33.33%;
+    height: 51px;
+}
+#container17 .third{
+    float: left;
+    width: 33.33%;
+    height: 50px;
+}
+#container17 .fourth{
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+#container17 .fifth{
+    float: left;
+    width: 60%;
+    height: 50px;
+    
+}
+#container17 .sixth{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+#container18 .first{
+    float: left;
+    width: 100%;
+    height: 90px;
+
+}
+#container18 .second{
+    float: left;
+    width: 50%;
+    height: 90px;
+}
+ #container18 .third, #container18 .fourth{
+    float: left;
+    width: 25%;
+    height: 90px;
+}
+#container18 .fifth{
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+#container18 .sixth{
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+#container19 .first{
+    float: right;
+    width: 33.33%;
+    height: 90px;
+}
+#container19 .second,#container19 .third{
+    float: left;
+    width: 33.33%;
+    height: 90px;
+}
+#container19 .fourth{
+    float: right;
+    width: 50%;
+    height: 90px;
+}
+#container19 .fifth{
+    float: left;
+    width: 50%;
+    height: 90px;
+}
+#container19 .sixth{
+   float: left;
+   width: 100%;
+   height: 90px;
+}
+#container20 .first,#container20 .second, #container20 .third{
+    float: left;
+    width: 33.33%;
+    height: 90px;
+}
+#container20 .fourth,#container20 .fifth{
+    float: left;
+    width: 50%;
+    height: 90px;
+
+}
+#container20 .sixth{
+    float: left;
+    width: 100%;height: 90px;
+}
+#fo{
+    float: right;
+    width: 50%;
+}
+#he{
+    float: left;
+    width: 50%;
+    
+}

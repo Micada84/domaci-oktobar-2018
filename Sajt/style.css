@@ -1,0 +1,255 @@
+
+.parent{
+    display: flex;
+    border: solid 1px lightgray;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+
+.hed1{
+    
+    width: 20%;
+    height: 20px;
+    
+}
+.hed2{
+    padding-top: 10px;
+    width: 60%;
+    height: 200px;
+    text-align: center;
+    
+}
+.parent1{
+    display: flex;
+    margin-top: 10px;  
+}
+.hed3{
+    width: 15%;
+    margin-right: 10px;
+    height: 600px;
+    margin-left: 8px;
+    text-align: center;
+    border: solid 1px lightgrey;
+     
+}
+.hed4{
+    border: solid 1px lightgray;
+    width: 70%;
+    height: 1180px;
+    padding: 20px;
+}
+.hed5{
+    border: solid 1px lightgray;
+    width: 15%;
+    margin-left: 10px;
+    height: 600px;
+    margin-right: 8px;
+    text-align: center;
+    line-height: 0.6;
+}
+
+.prevara{
+    position: relative;
+    right: -110px;
+    bottom: -25px;
+}
+.crvena{
+        color: rgb(209, 66, 66);
+        font-size: 25px;
+        font-style: oblique;
+}
+.tabela1{
+    width: 80%;
+    position: relative;
+    right: -70px;
+}
+.tb1{
+    border: solid 1px lightgray;
+    background-color: rgb(94, 177, 245);
+    text-align: center;
+    color: white;
+    height: 30px;
+}
+.sirina{
+    width: 100%;
+    border-radius: 10%;
+    height:25px;
+}
+.dugme{
+    background-color:rgb(94, 177, 245); 
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+   
+}
+.dugmici{
+    width: 150px;
+    border-radius: 5px;
+    height: 25px;
+    background-color: lightgrey;
+  
+}
+.dugmici1{
+    width: 150px;
+    border-radius: 5px;
+    height: 25px;  
+}
+.sir_cel{
+    width: 20%;
+
+}.lista{
+    font-size: 15px;
+    text-align: left;
+    height: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
+
+}
+.nas{
+    font-size: 23px;
+}
+.centar{
+    text-align: center;
+    font-size: 40px;
+}
+.vf{
+    font-size: 20px;
+    
+}
+.blq{
+   font-size: 35px;
+   color: blueviolet;
+}
+.unutra{
+   border-left: solid 2px rgb(94, 177, 245);
+   border-right: solid 2px rgb(94, 177, 245);
+   margin-left: 50px;
+   margin-right: 50px;
+   padding-left: 20px;
+
+}
+.tb{
+    background-color: lightgrey;
+    height: 30px;
+
+}
+table{
+    width: 100%;
+    
+}
+.td{
+    border: solid 1px lightgray;
+    text-align: center;
+    height: 30px;
+
+}
+.red{
+    background-color: rgb(94, 177, 245);
+    color: white;
+}
+.form{
+    display: inline-block;
+    width: 43%;
+    position: relative;
+    top: -10px;
+    right: -40px;
+    height: 320px;
+    
+
+
+    
+}
+.forma1{
+    display: inline-block;
+    width: 43%;
+    position: relative;
+    right: -100px;
+    height: 320px;
+
+}
+.lista{
+    font-size: 15px;
+    text-align: left;
+    height: 400px;
+    
+}
+.nas{
+    font-size: 23px;
+}
+.slika{
+    width: 60px;
+    height: 60px;
+}
+.gran{
+    border-left: solid 1px white;
+}
+.kraj{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+}
+.cent{
+    text-align: center;
+}
+.parent2{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: row;
+
+
+}
+.flex{
+    width: 20%;
+    height: 100px;
+    flex-wrap: wrap;
+    
+}
+.poz{
+    position: relative;
+    left: 100px;
+}
+.poz2{
+    position: relative;
+    left: 80px;
+}
+.div8{
+    width: 100%;
+    border: solid 1px lightgray;
+    background-color: rgb(94, 177, 245);
+    color: white;
+    margin-top: 10px;
+}
+.div9{
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+    position: relative;
+    right: -300px;
+}
+.prvi{
+    position: relative;
+    top: -15px;
+}
+.cent{
+    text-align: center;
+}
+body{
+    background-image:url("img/doodles.png");
+}
+.teh{
+    widht: 25%;
+.nivo{
+    width: 15%;
+}
+.link{
+    width: 60%;
+}
+tabela2{
+    width: 100%;
+}
+bold{
+    font-weight: 900;
+}
